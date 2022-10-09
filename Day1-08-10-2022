@@ -1,0 +1,159 @@
+DevOps 
+
+Link of blog posted
+
+DevOps Guide-What is DevOps Engineering?
+DevOps and Cloud Engineering are currently booming at the moment. The number of companies looking for skilled professionals in this field has jumped drastically. Let us try to understand some Basics of DevOps and Cloud Engineering.
+
+
+
+What is DevOps?
+
+DevOps is a cultural practice within an organization that involves automating and integrating processes between the software development and operation team. It emphasized more on team collaboration and technology automation.
+
+It basically helps increase an organization's ability to deliver applications and services at high velocity.
+
+DevOps is not about learning a tool and implementing that, rather it is a mindset that we have discussed below. 
+
+
+
+Implementation of DevOps
+
+If anyone wants to implement DevOps in an organization, you need to keep in mind some basic points.
+
+Core Values
+
+Core Ideas
+
+Methods
+
+Practices 
+
+Tools
+
+DevOps is basically a mindset that involves different teams having similar goal-set like pushing features to production involving each other streamlining the process and coming to a conclusion.
+
+
+
+Need of Learning DevOps
+
+Let us see If you implement DevOps within your organization, some of the benefits you can get.
+
+Deploy faster - (Even 50 % faster)
+
+less failure
+
+Better recovery time
+
+
+
+DevOps CAMS
+
+CAMS is a philosophy oF DevOps. Let us understand this in detail.
+
+C stands for Culture
+
+A Stands for Automation
+
+M stands for Measurement
+
+S stands for Sharing
+
+Culture- One of the Cultures which DevOps provides is talking to each other. Having discussions and taking ideas related to issues or implementation. 
+
+One of the common terminologies is People over Process over Tools. An example of that could be you cannot come to a conclusion the next day to introduce a new tool within the system as there could be already a system existing with certain processes and tools involved which could be broken down immediately because of your tool implementation.
+
+Automation- Automation is not just like introducing and tool rather you need to see how much can you automate and does it require to do automation or not.
+
+Therefore, it is essential to understand those points and then introduce tools wherein necessary. Like Terraform is a great tool that helps you automate your resource provisioning and replicate various resources.
+
+Measurement- One of the statements apt here is Measure to improve. Here it is not about infra measurement only, it is also beneficial to take necessary actions based on that to improve the system.
+
+Sharing- Share the GOAL
+
+It is necessary to share responsibility and ownership within teams and have a mindset on how to improve that should be the mindset all DevOps people should have.
+
+
+
+DevOps 3 ways
+
+flow thinking
+
+amplify feedback
+
+experiment and learn
+
+
+Let us deep dive to understand these methodologies, flow thinking is like the Dev team pushing the code to a particular branch and the code deployment will be taken care of in a release cycle like in 15 days or 30 days.
+
+In amplify feedback, in these before any release discussion with ops and dev team and give feedback between teams about the deployment feasibility.
+
+In experiment and learn as the name suggests there would be changes and learning in deployment process delivery.
+
+Usually, the second way i.e amplifying feedback is the way generally practices a lot within the organization.
+
+ 
+
+
+
+
+Big Overview to Remember in DevOps Implementation
+
+People over process over tools
+
+Continuous delivery
+
+lean management
+
+Infrastructure as code
+
+Lets us go through these terms one by one.
+
+People over process over tools, these we already discussed like in DevOps methodology to emphasize more on collaboration and people opinion and discussion over tools.
+
+Continuous delivery- It stands for delivering products as quickly as possible and multiple times as possible.
+
+Lean management- It implies minimizing the management people and making teams in sync and reporting to similar management for dev and ops.
+
+Infrastructure as code- This is the maintaining of your infrastructure in code so that it is easy to provision and replicate it also.
+
+
+
+
+
+
+DevOps Lifecycle
+
+These are the various stages that we are followed within the organization for the delivery of products starting from plan>code>build>test>release>deploy>operate>monitor.
+
+
+
+DevOps Terminology
+
+Provisioning
+
+It means making a server ready with OS, software, networking, or other dependencies.
+
+Deployment
+
+It is adding or upgrading software on the server.
+
+Orchestration
+
+Coordinating operations on multiple systems. For example, i.e Kubernetes is a container orchestration tool.
+
+Idempotent
+
+It means executing multiple times but getting the same result/OUTPUT in return
+
+Continuous Integration
+
+Methodology in which build and unit testing at every check-in
+
+Continuous Delivery
+
+It is deployed on the production live environment at every check-in
+
+
+
+Thanks for reading !!! All the best in your DevOps journey.
