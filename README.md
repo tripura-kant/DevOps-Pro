@@ -23,3 +23,6 @@ Roadmap
 
 https://kodekloud.com/
 https://www.udemy.com/course/ultimate-aws-certified-sysops-administrator-associate/learn/lecture/12957446#notes
+
+
+Udemy-Prometheus-course 
