@@ -1,0 +1,63 @@
+
+Create an AWS free tier account
+
+Login to console
+
+Type EC2 in search box and click
+
+Click on launch instance
+Type name of server, Select AMI as Amazon Linux, Select instance type as t2.micro(free), Create new key pair, select create security group, check all 3 boxes. leave everything as default 
+
+Click on launch instance
+
+Click on view all instances
+
+Wait for 2 mins till it shows an instance state as Running 
+
+Click on instance I'd
+
+Click on connect 
+
+After login into instance type below commands
+sudo su
+yum install httpd -y
+service httpd start
+cd /var/www/html
+nano index.html (Write your html code in this file and save)
+
+Copy your instance public IP on the browser and check if the website is running or not
+
+
+##################
+
+For attaching load balancer with EC2 instance
+
+Go to load balancers, Click on create load balancer 
+
+Select application load balancer
+Give load balancer name, keep other things as it is.
+Select vpc and your preferred regions 
+In listener section create target group
+
+It will navigate to create target group page
+Target group=== select instance, give target group name, select HTTP1 protocol, other keep as it is and click on next
+Select that available instance, click on create target group
+
+Go back to your application load balancer page and select your target group.
+
+Click on Create load balancer
+
+Go to target groups section 
+Click on register targets and select your available instance
+
+Click on include as pending Below
+
+Click on register pending targets
+
+Now go to the Application load balancer (ALB)
+Copy your ALB DNS name and paste it to your browser
+
+It should display that same website which was showing with public IP
+
+
+After successful completion, Delete your ALB and EC2.
