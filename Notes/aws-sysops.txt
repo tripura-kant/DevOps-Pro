@@ -2,4 +2,4 @@ AWS sysops associate
 
 Amazon Ec2 placement groups
 
-To place your ec2 instance
+To place your ec2 instance in dedicated hardware 
