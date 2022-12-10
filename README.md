@@ -26,3 +26,9 @@ https://www.udemy.com/course/ultimate-aws-certified-sysops-administrator-associa
 
 
 Udemy-Prometheus-course 
+
+
+
+Good udemy course
+https://www.udemy.com/course/learn-devops-the-complete-kubernetes-course/learn/lecture/6113078#overview
+
