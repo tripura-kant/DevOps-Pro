@@ -1,0 +1,9 @@
+VPC Peering
+
+Connection of two vpc within same account other region or other account.
+
+Public subnet internet access through igw
+
+Private subnet internet acccess through NAT gateway 
+
+
